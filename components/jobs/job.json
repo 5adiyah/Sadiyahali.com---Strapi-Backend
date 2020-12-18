@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_jobs_jobs",
+  "info": {
+    "name": "job",
+    "icon": "briefcase"
+  },
+  "options": {},
+  "attributes": {
+    "role": {
+      "type": "string"
+    },
+    "company": {
+      "type": "string"
+    },
+    "date": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    }
+  }
+}

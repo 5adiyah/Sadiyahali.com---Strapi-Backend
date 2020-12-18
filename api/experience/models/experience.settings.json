@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "experiences",
+  "info": {
+    "name": "experience"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "job": {
+      "type": "component",
+      "repeatable": true,
+      "component": "jobs.job"
+    }
+  }
+}
